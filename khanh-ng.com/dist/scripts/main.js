@@ -3099,7 +3099,7 @@
 
   var _tppCookieMessage = 'This website uses cookies to improve your experience. We\'ll assume you\'re ok with this, but you can opt-out if you wish.';
   var _tppButtonTitle = 'Accept';
-  var _tppMoreInfoPageLink = 'https://miramacho.com/legal#cookies';
+  var _tppMoreInfoPageLink = 'https://KHANH.NG.com/legal#cookies';
   var _tppCookieForDays = 60;
 
   if (!getCookie("cookieConsentAccepted")) {
