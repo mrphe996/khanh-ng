@@ -21,7 +21,7 @@
 
     function ShopifyBuyInit() {
         var client = ShopifyBuy.buildClient({
-            domain: 'miramacho.myshopify.com',
+            domain: 'KHANH.NG.myshopify.com',
             storefrontAccessToken: 'b64101d184997f74575d4c5b646add60',
         });
         ///////// TOTEBAG ////////////

@@ -2561,7 +2561,9 @@ html[data-direction="up"] .new-inside .header {
     color: #f9f8f7;
     color: #ffcaca;
     text-transform: uppercase;
-    line-height: 100%; }
+    line-height: 100%;
+    font-size: 96px; 
+  }
 
 .article .article-hero {
   position: relative;
@@ -2891,7 +2893,7 @@ html[data-direction="up"] .new-inside .header {
         display: block;
         opacity: 0;
         transform: translateY(100%);
-        font-size: calc(24px + 3vw);
+        font-size: calc(24px + 3vw - 20px);
         line-height: 103%;
         font-weight: 500;
         color: #ffcaca; }
@@ -4976,6 +4978,11 @@ input[type=number]::-webkit-outer-spin-button {
   height: auto; }
 
 .shopify-buy-frame.shopify-buy-frame--toggle.is-sticky
+{
+  visibility: hidden;
+}
+
+.ml-form-embedWrapper.embedForm
 {
   visibility: hidden;
 }
